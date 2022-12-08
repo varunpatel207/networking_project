@@ -1,0 +1,98 @@
+[
+{
+    "model": "user.user",
+    "pk": 1,
+    "fields": {
+        "email": "varun1@gmail.com",
+        "password": "varun@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 2,
+    "fields": {
+        "email": "varun2@gmail.com",
+        "password": "varun@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 3,
+    "fields": {
+        "email": "varun3@gmail.com",
+        "password": "varun@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 4,
+    "fields": {
+        "email": "preet1@gmail.com",
+        "password": "preet@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 5,
+    "fields": {
+        "email": "preet2@gmail.com",
+        "password": "preet@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 6,
+    "fields": {
+        "email": "preet3@gmail.com",
+        "password": "preet@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 7,
+    "fields": {
+        "email": "atharva1@gmail.com",
+        "password": "atharva@gmail.com"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 8,
+    "fields": {
+        "email": "atharva2@gmail.com",
+        "password": "atharva@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 9,
+    "fields": {
+        "email": "nishtha1@gmail.com",
+        "password": "nishtha@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 10,
+    "fields": {
+        "email": "nishtha2@gmail.com",
+        "password": "nishtha@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 11,
+    "fields": {
+        "email": "megh1@gmaill.com",
+        "password": "megh@123"
+    }
+},
+{
+    "model": "user.user",
+    "pk": 12,
+    "fields": {
+        "email": "megh2@gmail.com",
+        "password": "megh@123"
+    }
+}
+]
