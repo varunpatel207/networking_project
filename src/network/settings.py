@@ -35,7 +35,7 @@ print(HOST_IP)
 print("HOST_PORT")
 print(HOST_PORT)
 
-ALLOWED_HOSTS = [HOST_IP]
+ALLOWED_HOSTS = [HOST_IP, "localhost"]
 
 
 # Application definition
