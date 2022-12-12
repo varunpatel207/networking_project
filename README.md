@@ -3,6 +3,7 @@
  - `cd networking_project`
  - create python virtual environment `python3 -m venv venv`
  - activate virtual env `source venv/bin/activate`
+ - create .env file from .env_sample file in /src/network/
  - install all the dependencies from requirements file `pip install -r requirements.txt`
  - `cd src`
  - run migration command `python manage.py migrate`

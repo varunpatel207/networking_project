@@ -24,3 +24,4 @@ __pycache__
 /src/.venv
 /staticroot
 /src/db.sqlite3
+/src/network/.env

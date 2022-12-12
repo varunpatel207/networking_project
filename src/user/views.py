@@ -30,14 +30,6 @@ class UserViews():
         email = request.POST.get('email')
         password = request.POST.get('password')
 
-        print("email, password")
-        print(email, password)
-
         user_list = []
 
-        # user_objects = User.objects.values().filter(email=email)
-        #
-        # if user_objects:
-        #     for user_object in user_objects:
-        #         user_list.append(user_object)
         return Response(user_list)

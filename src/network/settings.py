@@ -9,8 +9,13 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
 from pathlib import Path
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+HOST_IP = os.getenv("HOST_IP")
+HOST_PORT = os.getenv("HOST_PORT")
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +30,12 @@ SECRET_KEY = 'django-insecure-r=$=zdxa5z010yn(g%j_gwvhht_u)2mau%-1sf_(=(&06_nu=m
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+print("HOST_IP")
+print(HOST_IP)
+print("HOST_PORT")
+print(HOST_PORT)
+
+ALLOWED_HOSTS = [HOST_IP]
 
 
 # Application definition
@@ -51,6 +61,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'user.middleware.RateLimiterMiddleware.RateLimiterMiddleware',
 ]
 
 ROOT_URLCONF = 'network.urls'
@@ -143,3 +154,8 @@ REST_FRAMEWORK = {
         'datalist': '20/day'
     }
 }
+
+IP_ADDRESS = HOST_IP
+PORT = HOST_PORT
+
+
